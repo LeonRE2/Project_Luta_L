@@ -1746,7 +1746,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fbf89d03afc7fb848af45a6cf9c83d98, type: 3}
       propertyPath: m_Name
-      value: Berserker
+      value: Ninja_Louco
       objectReference: {fileID: 0}
     - target: {fileID: 177074, guid: fbf89d03afc7fb848af45a6cf9c83d98, type: 3}
       propertyPath: m_IsActive
