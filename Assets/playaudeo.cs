@@ -7,7 +7,7 @@ public class playaudeo : MonoBehaviour
     public void PlayWoosh()
     {
         Debug.Log("Play woosh");
-            wooshSource.clip = wooshSoco1;
+        wooshSource.clip = wooshSoco1;
 
         wooshSource.Play();
     }
