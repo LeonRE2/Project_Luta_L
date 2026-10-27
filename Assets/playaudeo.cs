@@ -8,12 +8,17 @@ public class playaudeo : MonoBehaviour
     [SerializeField] AudioClip footstepSoco1;
     [SerializeField] AudioClip footstepSourc;
     [SerializeField] AudioClip footstepSoco2;
+    [SerializeField] AudioSource damageSource;
+    [SerializeField] AudioClip damageSoco3;
     public void PlayWoosh()
     {
         Debug.Log("Play woosh");
         wooshSource.clip = wooshSoco1;
 
         wooshSource.Play();
+
+        damageSource.clip = damageSoco3;
+        damageSource.Play();
         
     }
     public void PlayFootstep()
