@@ -409,6 +409,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fbf89d03afc7fb848af45a6cf9c83d98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 507186482}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: fbf89d03afc7fb848af45a6cf9c83d98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 507186483}
   m_SourcePrefab: {fileID: 100100000, guid: fbf89d03afc7fb848af45a6cf9c83d98, type: 3}
 --- !u!1 &507186480 stripped
 GameObject:
@@ -517,6 +520,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &507186483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507186480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07241ca3731cc14f819453c22c6e037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playaudeo
+  wooshSource: {fileID: 0}
+  wooshSoco1: {fileID: 0}
+  footstepSource: {fileID: 0}
+  footstepSoco1: {fileID: 0}
+  footstepSourc: {fileID: 0}
+  footstepSoco2: {fileID: 0}
+  grunts: []
+  steps: []
+  damageSource: {fileID: 0}
+  damageSoco3: {fileID: 0}
 --- !u!1 &846334568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1194,14 @@ MonoBehaviour:
   footstepSoco1: {fileID: 8300000, guid: 620cc173734a77040a02edea8046c28d, type: 3}
   footstepSourc: {fileID: 8300000, guid: 5d070f86d314473439439189034221dd, type: 3}
   footstepSoco2: {fileID: 8300000, guid: 5d070f86d314473439439189034221dd, type: 3}
-  grunts: []
+  grunts:
+  - {fileID: 8300000, guid: 125d46bc97f544fe6b46072b509f4b28, type: 3}
+  - {fileID: 8300000, guid: aa48101fd9bd24b82af88afb182a9bf5, type: 3}
+  - {fileID: 8300000, guid: 794be7c4bd9e64c9bbb9776937807a9e, type: 3}
+  steps:
+  - {fileID: 8300000, guid: 304f2bf2228cba94e91cd22803e54bcf, type: 3}
+  - {fileID: 8300000, guid: 7ca5a9710db4327439c9f8cb8204615e, type: 3}
+  - {fileID: 8300000, guid: 3d132da7af60f1145a3deb6a8bc42a08, type: 3}
   damageSource: {fileID: 0}
   damageSoco3: {fileID: 8300000, guid: 794be7c4bd9e64c9bbb9776937807a9e, type: 3}
 --- !u!114 &1581875673
@@ -1290,6 +1322,7 @@ MonoBehaviour:
   footstepSourc: {fileID: 0}
   footstepSoco2: {fileID: 0}
   grunts: []
+  steps: []
   damageSource: {fileID: 0}
   damageSoco3: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
