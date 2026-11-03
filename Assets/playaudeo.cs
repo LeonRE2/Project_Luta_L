@@ -10,6 +10,7 @@ public class playaudeo : MonoBehaviour
     [SerializeField] AudioClip footstepSourc;
     [SerializeField] AudioClip footstepSoco2;
     [SerializeField] List<AudioClip> grunts;
+    [SerializeField] List<AudioClip> steps;
     [SerializeField] AudioSource damageSource;
     [SerializeField] AudioClip damageSoco3;
     public void PlayWoosh()
@@ -28,12 +29,10 @@ public class playaudeo : MonoBehaviour
     public void PlayFootstep()
     {
         footstepSource.clip = footstepSoco1;
-        footstepSource.Play();
-    }
-    public void patras()
-    {
-        footstepSource.clip = footstepSoco2;
-        footstepSource.Play();
-    }
+        footstepSource.clip = steps[Random.Range(0, steps.Count)];
+        footstepSource.pitch = Random.Range(0.9f, 1.3f);
 
+        footstepSource.Play();
+    }
+    
 }

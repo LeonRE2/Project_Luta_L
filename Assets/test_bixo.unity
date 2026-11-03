@@ -715,6 +715,7 @@ MonoBehaviour:
   footstepSourc: {fileID: 0}
   footstepSoco2: {fileID: 0}
   grunts: []
+  steps: []
   damageSource: {fileID: 0}
   damageSoco3: {fileID: 0}
 --- !u!1 &393911691
@@ -1253,6 +1254,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: aa48101fd9bd24b82af88afb182a9bf5, type: 3}
   - {fileID: 8300000, guid: 794be7c4bd9e64c9bbb9776937807a9e, type: 3}
   - {fileID: 8300000, guid: 125d46bc97f544fe6b46072b509f4b28, type: 3}
+  steps:
+  - {fileID: 8300000, guid: ac6649006dbee9e4685752e124111da7, type: 3}
+  - {fileID: 8300000, guid: 7131d701ae015a54aa3d856feccd513f, type: 3}
+  - {fileID: 8300000, guid: 3d132da7af60f1145a3deb6a8bc42a08, type: 3}
   damageSource: {fileID: 479878412}
   damageSoco3: {fileID: 8300000, guid: 794be7c4bd9e64c9bbb9776937807a9e, type: 3}
 --- !u!82 &479878412
