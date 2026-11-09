@@ -8,6 +8,7 @@ public class LutadorControle : MonoBehaviour
     [SerializeField] private InputAction ataque;
     [SerializeField] private InputAction andar_Frente;
     [SerializeField] private InputAction andar_tras;
+    [SerializeField] private ParticleSystem Ataque;
     void Start()
     {
         ataque.Enable();
@@ -51,4 +52,9 @@ public class LutadorControle : MonoBehaviour
         animatorLutador.SetBool("Walk Backward", true);
         Debug.Log("andando_para tras");
     }
+    public void PlayPart()
+    {
+        Ataque.Play();
+    }
 }
+
