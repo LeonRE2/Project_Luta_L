@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8619261935366744938, guid: f40db358de8027b40a465c9b3026ce5d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d2d63642c8d7c0647bea34a86f2d5908, type: 2}
     - target: {fileID: 9016892597082127588, guid: f40db358de8027b40a465c9b3026ce5d, type: 3}
       propertyPath: m_Name
       value: Hit_3_Red
@@ -364,7 +368,7 @@ PrefabInstance:
     - target: {fileID: 3707983018852226925, guid: cf55a1631104ddb489f034c023c658dd, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d2d63642c8d7c0647bea34a86f2d5908, type: 2}
+      objectReference: {fileID: 2100000, guid: 0d53841d082d0474088cdb9e14950bc8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
